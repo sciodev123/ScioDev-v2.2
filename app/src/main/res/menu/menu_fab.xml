@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="io.github.yavski.fabspeeddial.samples.PositionSampleActivity">
+    <item
+        android:id="@+id/action_post_image"
+        android:icon="@drawable/icon_plus"
+        android:orderInCategory="100"
+        android:title="@string/post_image"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_post_link"
+        android:icon="@drawable/icon_plus"
+        android:orderInCategory="100"
+        android:title="@string/post_link"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_post_text"
+        android:icon="@drawable/icon_plus"
+        android:orderInCategory="100"
+        android:title="@string/post_text"
+        app:showAsAction="never" />
+
+</menu>

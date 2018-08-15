@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <!-- ListView -->
+
+    <com.github.ksoichiro.android.observablescrollview.ObservableListView
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/loadItemsLayout_listView"
+        android:background="#ffffff"></com.github.ksoichiro.android.observablescrollview.ObservableListView>
+
+    <!-- include progress layout that will be displayed while loading more data -->
+    <!-- initially it is hidden -->
+
+    <include
+        android:id="@+id/loadItemsLayout_listView"
+        layout="@layout/progress_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

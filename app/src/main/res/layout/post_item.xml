@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/tv_tag_image"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:id="@+id/tv_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Jupiter"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:id="@+id/tv_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="14sp"
+            android:text="UserName"
+            android:layout_gravity="center"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_comment_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_ttt"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/tv_comment_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_ttt"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:textColor="#000"/>
+    
+    <ImageView
+        android:id="@+id/iv_comment_image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_jupiter"
+        android:layout_gravity="center"
+        />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/iv_comment"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/icon_comment"
+            android:layout_centerVertical="true"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/tv_comment_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/iv_comment"
+            android:text="43 Comments"
+            android:layout_centerVertical="true"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/tv_vote_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/iv_vote_up"
+            android:layout_centerVertical="true"
+            android:text="12"
+            android:textColor="#000"/>
+
+        <ImageView
+            android:id="@+id/iv_vote_up"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_toLeftOf="@+id/iv_vote_down"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_vote_up"/>
+
+        <ImageView
+            android:id="@+id/iv_vote_down"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_vote_down"/>
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

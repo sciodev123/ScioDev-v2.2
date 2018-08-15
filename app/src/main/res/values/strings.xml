@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Scio</string>
+    <string name="image_preview">Image Preview</string>
+    <string name="load_more">Loading more sections please wait&#8230;</string>
+    <string name="btn_login">LOG IN</string>
+    <string name="btn_signup">SIGN UP</string>
+    <string name="signup_title">Sign Up</string>
+    <string name="have_an_account">Already have an account? Log in</string>
+    <string name="login_title">Log In</string>
+    <string name="new_user">New user? Sign up</string>
+    <string name="username_hint">Choose a unique username</string>
+    <string name="password_hint">Choose a password</string>
+    <string name="login_username_hint">Username</string>
+    <string name="login_password_hint">Password</string>
+    <string name="q_forgot_password">Forgot?</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="forgot_dialog_title">Forgot your password?</string>
+    <string name="forgot_dialog_message">"Enter your username and we'll email you a password reset link."</string>
+    <string name="terms_privacy_content">By signing up, you agree to our Terms and that you have read our Privacy Policy and Content Policy.</string>
+    <string name="btn_skip_for_now">SKIP FOR NOW</string>
+    <string name="menu_item_settings">Settings</string>
+    <string name="settings_accounts">ACCOUNTS</string>
+    <string name="email_password_settings">Email / Password</string>
+    <string name="logout_settings">Logout</string>
+    <string name="cancel">CANCEL</string>
+    <string name="email_me">EMAIL ME</string>
+    <string name="update_profile_title">Update Email and Password</string>
+    <string name="update_button">UPDATE</string>
+    <string name="search_scio">Search Scio</string>
+    <string name="options_1">Post an image</string>
+    <string name="options_2">Post a link</string>
+    <string name="options_3">Post some text</string>
+    <string name="select_picture">Select Picture</string>
+
+    <string name="post_image">Post an image</string>
+    <string name="post_link">Post a link</string>
+    <string name="post_text">Post some text</string>
+    <string name="str_post">Post</string>
+
+    <string name="hint_title_link">Title of your link</string>
+    <string name="hint_title_image">Title of your image</string>
+    <string name="hint_title_text">Title of your post</string>
+
+    <string name="hint_body_link">Type or paste your link here</string>
+    <string name="hint_body_text">Body of your text post (Optional)</string>
+
+    <string name="str_take_photo">Take a photo</string>
+    <string name="str_choose_album">Select an image from an album</string>
+
+    <string name="alert_post_title">Input the title</string>
+    <string name="alert_post_body">Input details here</string>
+    <string name="alert_post_image">Choose an image</string>
+    <string name="alert_token">Token is not correct.</string>
+
+
+    <string name="error_post_image">Image upload failed..</string>
+    <string name="error_post">Post failed..</string>
+    <string name="str_wait">Please wait..</string>
+    <string name="post_success">Post Successed</string>
+    <string name="str_ttt">Cras placert tortor a ipsum\nconsecture conquest.\n...</string>
+
+    <string name="noComments">Very empty.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

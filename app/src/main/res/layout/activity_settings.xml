@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_settings_back"
+        android:background="@android:color/transparent"
+        android:padding="20dp"
+        android:src="@drawable/ic_arrow_back_black_24dp" />
+
+    <TextView
+        android:id="@+id/settings_label"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/roboto_bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center_vertical"
+        android:layout_toEndOf="@+id/btn_settings_back"
+        android:text="@string/menu_item_settings" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/accounts_label"
+        android:text="@string/settings_accounts"
+        android:gravity="center_vertical"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textSize="14sp"
+        android:background="@color/colorGrey"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="@color/colorDarkGrey"
+        android:layout_below="@+id/settings_label" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/accounts_label"
+        android:layout_marginTop="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp" >
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/email_password_settings"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/email_password_settings" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/logout_settings"
+            android:layout_below="@id/email_password_settings"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/logout_settings" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/signup_settings"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/signup_title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/login_settings"
+            android:layout_below="@id/signup_settings"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/login_title" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
